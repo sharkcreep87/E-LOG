@@ -41,7 +41,9 @@ class login extends CI_Controller {
            $msg = $this->input->post ('UID');
            
             $data['msg'] = $msg;
+
         $this->load->view('vcourseinfo', $data);
+       
             
         }
 		else{

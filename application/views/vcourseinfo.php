@@ -11,8 +11,14 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 
   <div class="row">
 		<div class="col-md-6 col-md-offset-3">
-	  <div class="panel panel-default">
-	  <div class="panel-heading">Course Information</div>
+	     <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Maklumat Latihan
+                          </header>
+                          <div class="panel-body">
+                              <form class="form-inline" role="form">
+                                  <div class="form-group">
 	<form class="form-horizontal" method="post" action="<?php  $this->load->helper('url'); echo site_url("courseinfo/insert"); ?>" enctype="multipart/form-data" >
 	
 			  <fieldset>
