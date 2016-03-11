@@ -95,8 +95,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`Name`, `ID`, `Grade`, `Date`, `Unit`, `UID`, `Password`, `Email`) VALUES
 ('sazzad', '12312asd', 'dsa12', '12/18/2001', 'sadasd', 'saz', '123', 'sazzadknife@gmail.com'),
-('sazzad', '12312asd', 'asda', '12/18/2001', 'sadasd', 'sazzad11', 'c1dd73cfe42e27cf8914373a2c01aad5e065ac7f', 'sazzadknife@gmail.com'),
-('MOHD SHAFEQ BIN MD HASAN', '871015565025', 'p6HS', '12/10/2014', 'LATIHAN', 'shark', '12345', 'shafeq.hasan@gmail.com');
+('sazzad', '12312asd', 'asda', '12/18/2001', 'sadasd', 'sazzad11', 'c1dd73cfe42e27cf8914373a2c01aad5e065ac7f', 'sazzadknife@gmail.com');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
